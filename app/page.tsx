@@ -8,7 +8,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 
 export default function Home() {
   return (

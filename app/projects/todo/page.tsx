@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/navbar";
 
 export default function TodoPage() {
   const [tasks, setTasks] = useState<{ text: string; done: boolean }[]>([]);
